@@ -1,0 +1,61 @@
+a:46:{s:10:"totp.title";a:1:{i:0;a:2:{s:6:"source";s:28:"Time-based one-time password";s:6:"target";s:28:"Time-based one-time password";}}s:16:"totp.description";a:1:{i:0;a:2:{s:6:"source";s:207:"This provider allows to authenticate with a single-use passcode which is based on the current time.
+					Each code is only valid for 30 seconds. You need an OTP application or device, supporting such tokens.";s:6:"target";s:207:"This provider allows to authenticate with a single-use passcode which is based on the current time.
+					Each code is only valid for 30 seconds. You need an OTP application or device, supporting such tokens.";}}s:22:"totp.setupInstructions";a:1:{i:0;a:2:{s:6:"source";s:772:"The time-based one-time password provider enables you to strengthen your accounts' security by requiring a six-digit code on every login.
+					This provider is based on a shared secret, which will be exchanged between your OTP application (or device) and TYPO3. Each code takes the current time into account and is only valid for 30 seconds.
+
+					Setting up:
+					1. Scan the QR-code or directly enter the shared secret in your application or device
+					2. Add a specific name for this provider (optional)
+					3. Enter the generated six-digit code in the corresponding field
+					4. Submit the form to activate the provider
+
+					Note: In case your application supports otpauth:// urls, you can retrieve the url by clicking on the info button next to the shared secret.";s:6:"target";s:772:"The time-based one-time password provider enables you to strengthen your accounts' security by requiring a six-digit code on every login.
+					This provider is based on a shared secret, which will be exchanged between your OTP application (or device) and TYPO3. Each code takes the current time into account and is only valid for 30 seconds.
+
+					Setting up:
+					1. Scan the QR-code or directly enter the shared secret in your application or device
+					2. Add a specific name for this provider (optional)
+					3. Enter the generated six-digit code in the corresponding field
+					4. Submit the form to activate the provider
+
+					Note: In case your application supports otpauth:// urls, you can retrieve the url by clicking on the info button next to the shared secret.";}}s:19:"recoveryCodes.title";a:1:{i:0;a:2:{s:6:"source";s:14:"Recovery codes";s:6:"target";s:14:"Recovery codes";}}s:25:"recoveryCodes.description";a:1:{i:0;a:2:{s:6:"source";s:168:"This provider allows to authenticate with a set of single-use passcodes, in case you lost your
+					primary MFA credentials, or just have no access to them temporarily.";s:6:"target";s:168:"This provider allows to authenticate with a set of single-use passcodes, in case you lost your
+					primary MFA credentials, or just have no access to them temporarily.";}}s:31:"recoveryCodes.setupInstructions";a:1:{i:0;a:2:{s:6:"source";s:671:"Recovery codes are random eight-digit codes which can be used to authenticate, in case your lost your main authentication credentials. Each code is only valid once.
+					As soon as all recovery codes are exhausted, you're required to generate a new set. Therefore, periodically check the amount of remaining codes in the Edit / Change view of the provider.
+
+					Setting up:
+					1. Copy the recovery codes and store them at a safe place
+					2. Add a specific name for this provider (optional)
+					3. Submit the form to activate the provider - see below note
+
+					Note: Since the recovery codes are being encrypted and stored securely, this process can take some time.";s:6:"target";s:671:"Recovery codes are random eight-digit codes which can be used to authenticate, in case your lost your main authentication credentials. Each code is only valid once.
+					As soon as all recovery codes are exhausted, you're required to generate a new set. Therefore, periodically check the amount of remaining codes in the Edit / Change view of the provider.
+
+					Setting up:
+					1. Copy the recovery codes and store them at a safe place
+					2. Add a specific name for this provider (optional)
+					3. Submit the form to activate the provider - see below note
+
+					Note: Since the recovery codes are being encrypted and stored securely, this process can take some time.";}}s:14:"totpInputLabel";a:1:{i:0;a:2:{s:6:"source";s:34:"Enter the generated six-digit code";s:6:"target";s:34:"Enter the generated six-digit code";}}s:13:"totpInputHelp";a:1:{i:0;a:2:{s:6:"source";s:72:"This code should now be displayed on your device or in your application.";s:6:"target";s:72:"This code should now be displayed on your device or in your application.";}}s:6:"locked";a:1:{i:0;a:2:{s:6:"source";s:127:"
+					The maximum attempts for this provider are exceeded. Please use another provider or contact your
+					administrator.
+				";s:6:"target";s:127:"
+					The maximum attempts for this provider are exceeded. Please use another provider or contact your
+					administrator.
+				";}}s:15:"edit.table.head";a:1:{i:0;a:2:{s:6:"source";s:20:"Provider information";s:6:"target";s:20:"Provider information";}}s:15:"edit.table.name";a:1:{i:0;a:2:{s:6:"source";s:4:"Name";s:6:"target";s:4:"Name";}}s:31:"edit.table.nameInputPlaceholder";a:1:{i:0;a:2:{s:6:"source";s:12:"Enter a name";s:6:"target";s:12:"Enter a name";}}s:28:"edit.table.recoveryCodesLeft";a:1:{i:0;a:2:{s:6:"source";s:19:"Recovery codes left";s:6:"target";s:19:"Recovery codes left";}}s:19:"edit.table.lastUsed";a:1:{i:0;a:2:{s:6:"source";s:9:"Last used";s:6:"target";s:9:"Last used";}}s:27:"edit.table.lastUsed.default";a:1:{i:0;a:2:{s:6:"source";s:5:"Never";s:6:"target";s:5:"Never";}}s:22:"edit.table.lastUpdated";a:1:{i:0;a:2:{s:6:"source";s:12:"Last updated";s:6:"target";s:12:"Last updated";}}s:15:"edit.regenerate";a:1:{i:0;a:2:{s:6:"source";s:25:"Regenerate recovery codes";s:6:"target";s:25:"Regenerate recovery codes";}}s:27:"edit.regenerate.description";a:1:{i:0;a:2:{s:6:"source";s:168:"
+					If you lost your recovery codes or just want to get fresh ones, you can
+					regenerate them by selecting the checkbox below. You've currently %d codes left.
+				";s:6:"target";s:168:"
+					If you lost your recovery codes or just want to get fresh ones, you can
+					regenerate them by selecting the checkbox below. You've currently %d codes left.
+				";}}s:26:"edit.regenerate.inputLabel";a:1:{i:0;a:2:{s:6:"source";s:25:"Regenerate recovery codes";s:6:"target";s:25:"Regenerate recovery codes";}}s:12:"setup.step.1";a:1:{i:0;a:2:{s:6:"source";s:6:"Step 1";s:6:"target";s:6:"Step 1";}}s:13:"setup.step.1a";a:1:{i:0;a:2:{s:6:"source";s:7:"Step 1a";s:6:"target";s:7:"Step 1a";}}s:13:"setup.step.1b";a:1:{i:0;a:2:{s:6:"source";s:7:"Step 1b";s:6:"target";s:7:"Step 1b";}}s:12:"setup.step.2";a:1:{i:0;a:2:{s:6:"source";s:6:"Step 2";s:6:"target";s:6:"Step 2";}}s:12:"setup.step.3";a:1:{i:0;a:2:{s:6:"source";s:6:"Step 3";s:6:"target";s:6:"Step 3";}}s:18:"setup.qrCode.label";a:1:{i:0;a:2:{s:6:"source";s:26:"Scan the displayed QR code";s:6:"target";s:26:"Scan the displayed QR code";}}s:17:"setup.qrCode.help";a:1:{i:0;a:2:{s:6:"source";s:69:"Scan this code with your OTP application (e.g. Google Authenticator).";s:6:"target";s:69:"Scan this code with your OTP application (e.g. Google Authenticator).";}}s:18:"setup.secret.label";a:1:{i:0;a:2:{s:6:"source";s:22:"Copy the shared secret";s:6:"target";s:22:"Copy the shared secret";}}s:17:"setup.secret.help";a:1:{i:0;a:2:{s:6:"source";s:80:"You can also enter the shared secret manually in your OTP application or device.";s:6:"target";s:80:"You can also enter the shared secret manually in your OTP application or device.";}}s:16:"setup.name.label";a:1:{i:0;a:2:{s:6:"source";s:23:"Enter a name (optional)";s:6:"target";s:23:"Enter a name (optional)";}}s:15:"setup.name.help";a:1:{i:0;a:2:{s:6:"source";s:40:"Specify a custom name for this provider.";s:6:"target";s:40:"Specify a custom name for this provider.";}}s:30:"setup.recoveryCodes.InputLabel";a:1:{i:0;a:2:{s:6:"source";s:14:"Recovery codes";s:6:"target";s:14:"Recovery codes";}}s:29:"setup.recoveryCodes.InputHelp";a:1:{i:0;a:2:{s:6:"source";s:48:"Copy these codes and store them at a safe place.";s:6:"target";s:48:"Copy these codes and store them at a safe place.";}}s:31:"setup.recoveryCodes.reloadTitle";a:1:{i:0;a:2:{s:6:"source";s:21:"Reload recovery codes";s:6:"target";s:21:"Reload recovery codes";}}s:31:"setup.recoveryCodes.reloadLabel";a:1:{i:0;a:2:{s:6:"source";s:6:"Reload";s:6:"target";s:6:"Reload";}}s:43:"setup.recoveryCodes.noActiveProviders.title";a:1:{i:0;a:2:{s:6:"source";s:18:"Setup not possible";s:6:"target";s:18:"Setup not possible";}}s:45:"setup.recoveryCodes.noActiveProviders.message";a:1:{i:0;a:2:{s:6:"source";s:178:"Recovery codes are only meant as a fallback if you lose access to your main multi-factorauthentication credentials. Therefore, please activate a comprehensive MFA provider first.";s:6:"target";s:178:"Recovery codes are only meant as a fallback if you lose access to your main multi-factorauthentication credentials. Therefore, please activate a comprehensive MFA provider first.";}}s:29:"setup.totpAuthUrlButton.title";a:1:{i:0;a:2:{s:6:"source";s:23:"Show authentication URL";s:6:"target";s:23:"Show authentication URL";}}s:28:"setup.totpAuthUrlModal.title";a:1:{i:0;a:2:{s:6:"source";s:18:"Authentication URL";s:6:"target";s:18:"Authentication URL";}}s:34:"setup.totpAuthUrlModal.description";a:1:{i:0;a:2:{s:6:"source";s:392:"In case you are not able to scan the QR code, but your OTP application supports
+					authentication URLs next to, or instead of plain shared secrets, you can copy and
+					paste the URL shown below. The URL contains some information like the issuer (this site)
+					and your email address or username. Most OTP applications will display this information
+					next to the generated codes.
+				";s:6:"target";s:392:"In case you are not able to scan the QR code, but your OTP application supports
+					authentication URLs next to, or instead of plain shared secrets, you can copy and
+					paste the URL shown below. The URL contains some information like the issuer (this site)
+					and your email address or username. Most OTP applications will display this information
+					next to the generated codes.
+				";}}s:25:"setup.totpAuthUrlModal.ok";a:1:{i:0;a:2:{s:6:"source";s:2:"OK";s:6:"target";s:2:"OK";}}s:20:"auth.totp.inputLabel";a:1:{i:0;a:2:{s:6:"source";s:24:"Enter the six-digit code";s:6:"target";s:24:"Enter the six-digit code";}}s:29:"auth.recoveryCodes.inputLabel";a:1:{i:0;a:2:{s:6:"source";s:34:"Enter an eight-digit recovery code";s:6:"target";s:34:"Enter an eight-digit recovery code";}}s:26:"unlock.recoveryCodes.title";a:1:{i:0;a:2:{s:6:"source";s:47:"Your recovery codes were automatically updated!";s:6:"target";s:47:"Your recovery codes were automatically updated!";}}s:28:"unlock.recoveryCodes.message";a:1:{i:0;a:2:{s:6:"source";s:46:"Please copy and store them at a safe place: %s";s:6:"target";s:46:"Please copy and store them at a safe place: %s";}}s:26:"update.recoveryCodes.title";a:1:{i:0;a:2:{s:6:"source";s:39:"Recovery codes successfully regenerated";s:6:"target";s:39:"Recovery codes successfully regenerated";}}s:28:"update.recoveryCodes.message";a:1:{i:0;a:2:{s:6:"source";s:46:"Please copy and store them at a safe place: %s";s:6:"target";s:46:"Please copy and store them at a safe place: %s";}}}
